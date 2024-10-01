@@ -13,7 +13,7 @@ def hello_world():
     return f"Hello World!!!!!!"
 
 @app.route("/user", methods=['GET', 'POST'])
-def hello_world():
+def user():
     """Example Hello World route."""
 
     return json.dumps({"id": 12345, name: "John"})
